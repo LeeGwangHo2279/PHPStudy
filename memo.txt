@@ -1,0 +1,16 @@
+index.html이 아닌
+
+웹서버를 index.php 확장자가 html파일을 php파일이다 인식하고 html로 출력.
+
+확장자 html, php의 차이 
+html은 파일을 한번 만들면(정적) 그때화면 그대로 
+PHP는 index.html 안을 열어보고 php의 함수가 등장하면(동적) 계속 바낌
+
+정수 integer
+
+php는 print()를 사용하면 html에 표현이 가능하다.
+(echo도 마찬가지)
+
+Variable(변수)
+
+php의 url을 통한
