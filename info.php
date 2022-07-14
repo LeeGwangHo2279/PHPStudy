@@ -1,4 +1,23 @@
-<?php
-echo 'Hello World';  // o
-echo "Hello World";  // o
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+        $str = "test 줄바꿈은 <br> 이 필요함";
+        echo $str;
+    ?>
+    <h2>strlen</h2>
+    <?php
+    strlen($str)
+    ?>
+    <h2>nl2br</h2>
+    <?php
+    echo nl2br($str)
+    ?>
+</body>
+</html>
