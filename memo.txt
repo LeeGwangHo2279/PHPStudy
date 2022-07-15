@@ -14,3 +14,9 @@ php는 print()를 사용하면 html에 표현이 가능하다.
 Variable(변수)
 
 php의 url을 통한
+
+expr 은 값
+
+statement는 값이 아니다 
+
+문법을 구성하는 양대 축 

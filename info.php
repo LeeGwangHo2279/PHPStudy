@@ -8,16 +8,16 @@
 </head>
 <body>
     <?php
-        $str = "test 줄바꿈은 <br> 이 필요함";
-        echo $str;
-    ?>
-    <h2>strlen</h2>
-    <?php
-    strlen($str)
-    ?>
-    <h2>nl2br</h2>
-    <?php
-    echo nl2br($str)
+    echo '1<br>';
+    $i = 0;
+    
+    while($i < 3){
+        
+        echo '2<br>';
+        $i = $i + 1;    
+    }
+    
+    echo '3<br>';
     ?>
 </body>
 </html>
