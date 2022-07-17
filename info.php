@@ -19,5 +19,23 @@
     
     echo '3<br>';
     ?>
+
+
+    //0717
+    <h1>array<h1>
+    <?php
+
+    //배열을 표현하는 표현식
+    $coworkers = array('egoing', 'leeczche', 'duru', 'taeho');
+   
+    echo $coworkers[1].'<br>';
+    echo $coworkers[3].'<br>';
+
+    var_dump(count($coworkers));
+    array_push($coworkers, "gwangho", "gahyeon");
+    var_dump($coworkers);
+
+    ?>
+
 </body>
 </html>
