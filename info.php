@@ -37,5 +37,30 @@
 
     ?>
 
+
+    <?php
+    scandir('./data');
+    var_dump($list);
+
+    $i = 0;
+    while($i < 6){
+        echo "<li>$list[$i]</li>\n";
+        $i = $i +1;
+    }
+
+    while($i < count($list)){
+        echo "<li><a href=\"index.php?id=$list[$i]\">$list[$i]</a></li>\n";
+        $i = $i +1;
+    }
+
+    // $list = scandir('./data');
+    // echo "<li>list[0]<li>\n";
+    // echo "<li>list[1]<li>\n";
+    // echo "<li>list[2]<li>\n";
+    // echo "<li>list[3]<li>\n";
+    // echo "<li>list[4]<li>\n";
+    // echo "<li>list[5]<li>\n";
+
+    ?>
 </body>
 </html>
