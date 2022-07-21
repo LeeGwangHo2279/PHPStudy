@@ -49,9 +49,32 @@
     }
 
     while($i < count($list)){
+        $list[$i] != '.'
         echo "<li><a href=\"index.php?id=$list[$i]\">$list[$i]</a></li>\n";
         $i = $i +1;
     }
+
+    
+    ?>
+    <h1>Function</h1>
+    <h2>Basic</h2>
+    <?php
+    function basic(){
+        print("Lorem ipsum dolor1")
+        print("Lorem ipsum dolor2")
+    }
+
+    basic();
+
+    <h2>parameter &amp; argument</h2>
+   
+        function sum($left, $right){
+            print($left+$right);
+            print('<br>')
+        }
+        sum(2,4);
+    
+    ?>
 
     // $list = scandir('./data');
     // echo "<li>list[0]<li>\n";
