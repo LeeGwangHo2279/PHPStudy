@@ -8,6 +8,29 @@
 </head>
 <body>
     <?php
+    function print_title(){
+        function sum($left, $right){
+            print($left+$right);
+            print('<br>')
+        }
+        sum(2,4);
+
+    }
+
+    function print_discription(){
+        scandir('./data');
+        var_dump($list);
+    
+        $i = 0;
+        while($i < 6){
+            echo "<li>$list[$i]</li>\n";
+            $i = $i +1;
+        }
+    }
+    
+    ?>
+
+    <?php
     echo '1<br>';
     $i = 0;
     
@@ -39,18 +62,13 @@
 
 
     <?php
-    scandir('./data');
-    var_dump($list);
 
-    $i = 0;
-    while($i < 6){
-        echo "<li>$list[$i]</li>\n";
-        $i = $i +1;
-    }
-
+    //함수의 활용 정리정돈
+    print_discription()
+    
     while($i < count($list)){
         $list[$i] != '.'
-        echo "<li><a href=\"index.php?id=$list[$i]\">$list[$i]</a></li>\n";
+        //echo "<li><a href=\"index.php?id=$list[$i]\">$list[$i]</a></li>\n";
         $i = $i +1;
     }
 
@@ -68,11 +86,7 @@
 
     <h2>parameter &amp; argument</h2>
    
-        function sum($left, $right){
-            print($left+$right);
-            print('<br>')
-        }
-        sum(2,4);
+    print_title();
     
     ?>
 
