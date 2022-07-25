@@ -20,3 +20,10 @@ expr 은 값
 statement는 값이 아니다 
 
 문법을 구성하는 양대 축 
+
+php get file list in directory 
+ 
+ //0725 함수와 객체를 이용하는 방식과 차이점
+
+Api 기본적인 제공하는 함수.
+
