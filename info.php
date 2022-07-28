@@ -15,4 +15,22 @@
     //fread는 data.txt내용을 일게된다. 
     var_dump($file->fread($file->getSize()));
     $file->fwrite(rand(1,100));
+
+    $file2 = new SplFileObject('data2.txt');
+    var_dump($file2->is_file());
+    var_dump($file2->isDir());
+    //fread는 data.txt내용을 일게된다. 
+    var_dump($file2->fread($file2->getSize()));
+    $file2->fwrite(rand(1,100));
+ 
+    // SplFileObject : Class 
+    // class는 설계도라고 생각하면 편하다! 
+    
+    //설계도를 통해 만들어진 제품이라고 생각하면 편하다! 
+    //class 앞에 new를 주고 실행시키면 
+    
+    // $file, $file2 : Instance
+    // isFile, isDir, fread : method(function)
+    // data.txt, data2.txt : state (상태라고 말한다)
+    
 ?>
