@@ -22,7 +22,7 @@
     //fread는 data.txt내용을 일게된다. 
     var_dump($file2->fread($file2->getSize()));
     $file2->fwrite(rand(1,100));
- 
+
     // SplFileObject : Class 
     // class는 설계도라고 생각하면 편하다! 
     
@@ -32,5 +32,7 @@
     // $file, $file2 : Instance
     // isFile, isDir, fread : method(function)
     // data.txt, data2.txt : state (상태라고 말한다)
+  
+    
     
 ?>
