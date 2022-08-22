@@ -43,3 +43,5 @@ File Handling
     SplFileInfo : 
     SplFileObject 는 (SplFileInfo한테 상속받아서 파일오브젝트를 만들었다. )
     SplTempFileObject 는 (SplFileObject한테 상속받음)
+
+Static(정적) : 
