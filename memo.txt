@@ -45,3 +45,6 @@ File Handling
     SplTempFileObject 는 (SplFileObject한테 상속받음)
 
 Static(정적) : 
+
+Data는 배열에 담고 연관된 함수와 변수를 객체에 담는다. 
+객체라는것이 많아지면 담아지는것이 네임스페이스. (패키지 라고 불린다.) 
